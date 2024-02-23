@@ -4,4 +4,5 @@ project(ImageRescala)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(ImageRescala main.cpp ConsoleGfx.cpp)
+add_executable(ImageRescala scalar.cpp ConsoleGfx.cpp
+        scalar.cpp)

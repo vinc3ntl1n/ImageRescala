@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/vincentlin/ImageRescala/cmake-build-debug/
 
 build cmake_object_order_depends_target_ImageRescala: phony || CMakeFiles/ImageRescala.dir
 
-build CMakeFiles/ImageRescala.dir/main.cpp.o: CXX_COMPILER__ImageRescala_unscanned_Debug /Users/vincentlin/ImageRescala/main.cpp || cmake_object_order_depends_target_ImageRescala
-  DEP_FILE = CMakeFiles/ImageRescala.dir/main.cpp.o.d
+build CMakeFiles/ImageRescala.dir/scalar.cpp.o: CXX_COMPILER__ImageRescala_unscanned_Debug /Users/vincentlin/ImageRescala/scalar.cpp || cmake_object_order_depends_target_ImageRescala
+  DEP_FILE = CMakeFiles/ImageRescala.dir/scalar.cpp.o.d
   FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ImageRescala.dir
   OBJECT_FILE_DIR = CMakeFiles/ImageRescala.dir
@@ -69,7 +69,7 @@ build CMakeFiles/ImageRescala.dir/ConsoleGfx.cpp.o: CXX_COMPILER__ImageRescala_u
 #############################################
 # Link the executable ImageRescala
 
-build ImageRescala: CXX_EXECUTABLE_LINKER__ImageRescala_Debug CMakeFiles/ImageRescala.dir/main.cpp.o CMakeFiles/ImageRescala.dir/ConsoleGfx.cpp.o
+build ImageRescala: CXX_EXECUTABLE_LINKER__ImageRescala_Debug CMakeFiles/ImageRescala.dir/scalar.cpp.o CMakeFiles/ImageRescala.dir/ConsoleGfx.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5
   OBJECT_DIR = CMakeFiles/ImageRescala.dir
   POST_BUILD = :
