@@ -1,0 +1,3 @@
+/Users/vincentlin/ImageRescala/cmake-build-debug/CMakeFiles/ImageRescala.dir
+/Users/vincentlin/ImageRescala/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/vincentlin/ImageRescala/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,5 @@
+# ninja log v5
+0	35	1708722064081049206	build.ninja	f761c402a0ca55c3
+1	412	1708721834858928991	CMakeFiles/ImageRescala.dir/main.cpp.o	a10c6baa15e8c176
+413	451	1708721834899734708	ImageRescala	e02a9a81f1b175d4
+1	301	1708719747482660375	CMakeFiles/ImageRescala.dir/ConsoleGfx.cpp.o	db3166b06749ad3
